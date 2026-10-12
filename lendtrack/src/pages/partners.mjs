@@ -76,7 +76,7 @@ ${pageHero(r, {
     <ol class="flow three">
       <li><span class="flow-n">1</span><h3>Introduce your client</h3><p>Share your funding page or submit a client from your dashboard. It takes a few minutes.</p></li>
       <li><span class="flow-n">2</span><h3>We handle the funding</h3><p>A specialist calls within 24 hours, collects documents, underwrites and matches the right lender.</p></li>
-      <li><span class="flow-n">3</span><h3>You earn 30%</h3><p>When the deal funds, 30% of the commission is yours. On average, $1,000 to $2,000 per funded deal.</p></li>
+      <li><span class="flow-n">3</span><h3>You earn 30%</h3><p>When the deal funds, 30% of the commission is yours. On average, $1,000 to $5,000 per funded deal.</p></li>
     </ol>
     <p class="note-center"><a href="${r}how-it-works/">See the full referral journey →</a></p>
   </div>
@@ -111,7 +111,7 @@ ${pageHero(r, {
     <div>
       <p class="eyebrow light">Your earnings</p>
       <h2 class="h2-sm">30% of every commission. <span class="dim">No cap.</span></h2>
-      <p class="sub">Partners earn $1,000 to $2,000 per funded deal on average. Refer as many clients as you like.</p>
+      <p class="sub">Partners earn $1,000 to $5,000 per funded deal on average. Refer as many clients as you like.</p>
     </div>
     <a href="${r}earnings/" class="btn btn-primary btn-lg">See how you get paid <span aria-hidden="true">→</span></a>
   </div>
@@ -123,7 +123,7 @@ ${pageHero(r, {
     ${faqList([
       ...p.faq,
       { q: 'Do I need lending experience?', a: 'No. You make the introduction. Our in-house funding team handles the calls, documents, underwriting and closing.' },
-      { q: 'What does it cost to join?', a: 'We cover membership options on your demo call, once we understand your network and goals.' },
+      { q: 'What does it cost to join?', a: 'We cover licensing options on your demo call, once we understand your network and goals.' },
     ])}
   </div>
 </section>
@@ -137,7 +137,7 @@ ${pageHero(r, {
       <ol class="agenda">
         <li><b>Tour the platform.</b> Your funding page, dashboard and AI fundability check.</li>
         <li><b>Map your client base.</b> Spot the clients who need capital right now.</li>
-        <li><b>Find out if you qualify.</b> If it's a fit, we'll walk you through membership options.</li>
+        <li><b>Find out if you qualify.</b> If it's a fit, we'll walk you through licensing options.</li>
       </ol>
     </div>
     ${demoForm(r, `partners-${p.slug}`)}

@@ -3,7 +3,7 @@ import { pageHero, faqList, finalCta } from '../layout.mjs';
 export default [{
   path: 'earnings/',
   title: 'How Partners Get Paid | LendTrack Earnings',
-  description: 'LendTrack partners keep 30% of the commission on every referral that funds, averaging $1,000 to $2,000 per funded deal. See how commissions work and estimate your earnings.',
+  description: 'LendTrack partners keep 30% of the commission on every referral that funds, averaging $1,000 to $5,000 per funded deal. See how commissions work and estimate your earnings.',
   body: (r) => `
 ${pageHero(r, {
   crumbs: [['Earnings']],
@@ -17,7 +17,7 @@ ${pageHero(r, {
   <div class="wrap">
     <dl class="proof">
       <div><dt>30%</dt><dd>of the total commission on every funded referral</dd></div>
-      <div><dt>$1K to $2K</dt><dd>average partner share per funded deal</dd></div>
+      <div><dt>$1K to $5K</dt><dd>average partner share per funded deal</dd></div>
       <div><dt>No cap</dt><dd>on how many business owners you refer</dd></div>
       <div><dt>Direct deposit</dt><dd>commissions paid straight to your bank</dd></div>
     </dl>
@@ -59,11 +59,11 @@ ${pageHero(r, {
         </figcaption>
         <div class="calc-controls">
           <label class="ctl"><span>Funded referrals per month <output id="deals-out">2</output></span><input type="range" id="deals" min="1" max="10" step="1" value="2"></label>
-          <label class="ctl"><span>Average share per deal <output id="share-out">$1,500</output></span><input type="range" id="share" min="1000" max="2000" step="250" value="1500"></label>
+          <label class="ctl"><span>Average share per deal <output id="share-out">$3,000</output></span><input type="range" id="share" min="1000" max="5000" step="250" value="3000"></label>
         </div>
         <div class="calc-totals">
-          <div><span>Per month</span><strong id="per-month">$3,000</strong></div>
-          <div><span>First 12 months</span><strong id="per-year">$36,000</strong></div>
+          <div><span>Per month</span><strong id="per-month">$6,000</strong></div>
+          <div><span>First 12 months</span><strong id="per-year">$72,000</strong></div>
         </div>
         <div class="chart-wrap">
           <svg id="calc-chart" viewBox="0 0 640 220" role="img" aria-label="Bar chart of estimated cumulative earnings by month over 12 months"></svg>
@@ -124,7 +124,7 @@ ${pageHero(r, {
   <div class="wrap two-col">
     <div><p class="eyebrow">FAQ</p><h2 class="h2-sm">Questions about getting paid</h2></div>
     ${faqList([
-      { q: 'How much do I earn per funded deal?', a: '30% of the total commission generated. On average, that’s $1,000 to $2,000 per funded deal, depending on deal size and product.' },
+      { q: 'How much do I earn per funded deal?', a: '30% of the total commission generated. On average, that’s $1,000 to $5,000 per funded deal, depending on deal size and product.' },
       { q: 'When do I get paid?', a: 'After the deal funds and the commission is received. Exact payment timing is set out in the referral partnership agreement you sign when you join.' },
       { q: 'How do I get paid?', a: 'By direct deposit to your bank account. You add your banking details securely in your dashboard.' },
       { q: 'Is there a limit on how much I can earn?', a: 'No. There’s no cap on referrals or commissions.' },

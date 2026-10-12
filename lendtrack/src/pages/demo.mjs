@@ -17,7 +17,7 @@ const demo = {
         <li><b>Tour the platform.</b> Your funding page, dashboard and AI fundability check, live.</li>
         <li><b>Map your network.</b> We'll help you spot who you know that needs capital right now.</li>
         <li><b>See how you get paid.</b> Exactly how referrals are tracked and commissions are paid.</li>
-        <li><b>Find out if you qualify.</b> If it's a fit, we'll walk you through membership options.</li>
+        <li><b>Find out if you qualify.</b> If it's a fit, we'll walk you through licensing options.</li>
       </ol>
     </div>
     ${demoForm(r, 'demo-page')}
@@ -28,7 +28,7 @@ const demo = {
   <div class="wrap">
     <dl class="proof">
       <div><dt>30%</dt><dd>of the commission on every deal you refer that funds</dd></div>
-      <div><dt>$1K to $2K</dt><dd>average partner share per funded deal</dd></div>
+      <div><dt>$1K to $5K</dt><dd>average partner share per funded deal</dd></div>
       <div><dt>24 hours</dt><dd>for a funding specialist to contact your client</dd></div>
       <div><dt>0</dt><dd>underwriting or lending experience required</dd></div>
     </dl>
@@ -46,7 +46,7 @@ const demo = {
       { q: 'Is the demo call free?', a: 'Yes. There’s no cost and no obligation. It’s a conversation to see if the partner program is right for you.' },
       { q: 'Who will I talk to?', a: 'A member of our partner team who knows the platform and the funding products inside out.' },
       { q: 'Do I need to prepare anything?', a: 'Not much. It helps to think about the business owners you talk to regularly. After you book, we’ll send a short checklist.' },
-      { q: 'What does the program cost?', a: 'We cover membership options on the call, once we understand your network and goals. We only bring on partners we believe can succeed.' },
+      { q: 'What does the program cost?', a: 'We cover licensing options on the call, once we understand your network and goals. We only bring on partners we believe can succeed.' },
     ])}
   </div>
 </section>`,
